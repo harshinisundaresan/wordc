@@ -1,0 +1,9 @@
+<h1> There are {{wordc}} words in para </h1>
+<h2>Words typed:</h2>
+{{ fulltext }}
+<br>
+<h3>no of words</h3>
+{% for word,countt in worddict %}
+{{word}}:{{countt}}
+<br>
+{% endfor %}
